@@ -3,9 +3,14 @@ package NguyenTrungThanh.BaiKT1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView username =(TextView) findViewById(R.id.username);
+    TextView password =(TextView) findViewById(R.id.password);
+    Button btn =(Button) findViewById(R.id.btn);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

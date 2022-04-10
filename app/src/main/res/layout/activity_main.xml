@@ -25,7 +25,8 @@
         android:layout_height="40dp"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="129dp"
-        android:hint="Tên đăng nhập" />
+        android:hint="Tên đăng nhập"
+        android:id="@+id/username"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
         android:layout_height="40dp"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="217dp"
-        android:hint="Mật Khẩu"/>
+        android:hint="Mật Khẩu"
+        android:id="@+id/password"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,5 +51,15 @@
         tools:layout_editor_absoluteY="356dp"
         android:text="Attempts:5"
         android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="471dp"
+        android:text="Login"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:id="@+id/btn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
